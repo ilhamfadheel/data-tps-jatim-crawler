@@ -1,7 +1,5 @@
 const axios = require("axios");
 const excel = require("exceljs");
-// https://tpsjatim.kpu.go.id/peta/35.{number}
-// fetch from link from number 01 to 79 with try catch and when catched then do nothing. when fetch successful concat all the response.data into one array
 
 const fetchData = async (number) => {
   try {
@@ -48,7 +46,6 @@ const fetchAllData = async () => {
     }
   }
 
-  // console.log("hasil", result);
   return result;
 };
 
