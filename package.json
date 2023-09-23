@@ -1,10 +1,10 @@
 {
-  "name": "data-tps-jaktim-crawler",
+  "name": "data-tps-jatim-crawler",
   "version": "1.0.0",
   "description": "Crawl TPS Jaktim KPU Page",
   "main": "data-jaktim.js",
   "scripts": {
-    "start": "node data-jaktim.js"
+    "start": "node data-jatim.js"
   },
   "author": "ilhamfadheel",
   "license": "ISC",
